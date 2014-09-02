@@ -28,8 +28,8 @@ configure-stamp:
                     --enable-rdma \
                     --enable-monitoring \
                     --enable-watchdog \
-                    --enable-augeas 
-		    --enable-snmp \ 
+                    --enable-augeas \
+		    --enable-snmp \
 		    --enable-xmlconf
 	touch configure-stamp
 
